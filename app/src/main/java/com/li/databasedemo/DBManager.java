@@ -34,7 +34,6 @@ public class DBManager {
             synchronized (DBManager.class) {
                 if (mInstance == null) {
                     mInstance = new DBManager(context);
-
                 }
             }
         }
