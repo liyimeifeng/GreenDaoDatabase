@@ -13,7 +13,7 @@ import org.greenrobot.greendao.annotation.Unique;
 
 @Entity
 public class User {
-    @Id(autoincrement=true) //只能设置Long型主键，自增长模式
+    @Id(autoincrement = true) //只能设置Long型主键，自增长模式
     private Long id;
     private String name;
     private int age;
